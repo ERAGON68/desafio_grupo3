@@ -1,0 +1,566 @@
+.bodypf {
+  /*background-image: url("./img/pulse.jpg");*/
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.no_wrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav_icon {
+    width: 100px;
+    height: 50px;
+}
+.wrapper {
+    overflow: visible;
+    padding: 0 15px;
+}
+
+.nav-bar {
+    height: 80px;
+    background: #151515;
+    overflow: visible;
+    z-index: 110;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/nav-bg.png);
+    background-attachment: fixed; 
+}
+.social-links1 {
+        display: flex;
+        flex-direction: row;
+        margin-top: auto;
+        justify-content: right;
+        background-color: rgba(5, 1, 7, 0);
+        font-family: sans-serif ;
+        color: aliceblue;
+        width: 100%;
+
+}
+
+.giro  {
+    transition-duration: 0.7s;
+    
+}
+
+.zoom {
+  background-color: rgba(0, 128, 0, 0);
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.giro:hover {
+    transform: rotate3d(0.8, 1, 0, 360deg);
+    transition-timing-function: ease-in-out;
+    
+}
+
+.zoom:hover {
+  transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.header_image {
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: auto;
+    /*background-image: url("./img/pulse.jpg");*/
+    background-image: url("./img/bg_header.jpg");
+    background-attachment: scroll; 
+    
+  }
+
+  .disc_image {
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: auto;
+    background-image: url("./img/bg_disc.jpg");
+    background-attachment: scroll; 
+  }
+
+
+  .news_image {
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: auto;
+    /*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(252, 249, 249, 0.15) 100%), radial-gradient(at top center, rgba(241, 239, 239, 0.4) 0%, rgba(245, 241, 241, 0.4) 120%) #989898;*/
+    /*background-blend-mode: multiply,multiply;*/
+    /*background-image: url("./img/bg_disc.jpg");*/
+    background-image: url("./img/bg_news.jpg");
+    background-attachment: scroll; 
+
+  }
+
+  .bg_footer2 {
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: auto;
+    min-height: auto;
+    /*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(252, 249, 249, 0.15) 100%), radial-gradient(at top center, rgba(241, 239, 239, 0.4) 0%, rgba(245, 241, 241, 0.4) 120%) #989898;*/
+    /*background-blend-mode: multiply,multiply;*/
+    /*background-image: url("./img/bg_disc.jpg");*/
+    background-image: url("./img/bg_footer2.png");
+    background-attachment: scroll; 
+
+  }
+
+  
+.bg_white {
+
+ background-color: aliceblue;
+    
+}
+.bg_white_tr {
+    
+    background-color: rgba(240, 248, 255, 0.37);
+       
+   }
+.bg_black {
+
+    background-color: black;
+       
+   }
+.navbar_color10 {
+  color: #cc3c3c ;
+}
+a .navbar_color10:hover {
+  color: #6d6060 ;
+}
+  .best_image {
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: rgb(2, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: auto;
+    /*background-color:black;*/
+    background-image: url(./img/bg_bestvideos.jpg);
+    background-blend-mode: multiply,multiply;
+    background-attachment: scroll; 
+
+    /*background-image: url("./img/bg_news.jpg");*/
+  }
+  .zoom {
+    background-color: rgba(0, 128, 0, 0);
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+
+
+  /* Best videos section*/
+  * {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+section {
+	position: relative;
+	width: 100%;
+	/*height: 100vh;*/
+ 
+}
+section video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+section .navegacion{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+}
+ 
+section .navegacion li{
+	list-style: none;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 2px;
+	background: #eee;
+	padding: 3px 3px 0;
+	opacity: 0.65;
+	transition: 0.6s;
+}
+ 
+section .navegacion li:hover{
+	opacity: 1;
+	background: #fff;
+}
+ 
+section .navegacion li img{
+	width: 150px;
+	transition: 0.6s;
+}
+ 
+section .navegacion li img:hover{
+	width: 200px;
+}
+
+.bg_white_tr .visitado {
+    color: rgb(245, 248, 245);
+    text-decoration: none;
+  }
+
+
+  /*section contact-footer*/
+
+  footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #1f2022;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+  div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+  .img1 {
+    max-width: 600px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .img1 {
+      width: 225px;
+      max-height: 400px;
+      /*overflow: hidden;*/
+      justify-content: space-between;
+    }
+    div.card {
+      width: 225px;
+      height: 400px;
+      margin-left: 5px;
+      /*overflow: hidden;*/
+      
+    }
+    h4.img1 {
+      font-size: 0.8rem;
+    }
+    h6.img1 {
+      font-size: 0.5rem;
+    }
+    p.img1 {
+      font-size: 0.3rem;
+    }
+
+    }
+
+  
+    
+
+    @media screen and (max-width: 425px) {
+      .img1 {
+        width: 130px;
+        max-height: 320px;
+        /*overflow: hidden;*/
+        justify-content: space-between;
+      }
+      div.card {
+        width: 130px;
+        height: 300px;
+        margin-left: 5px;
+        /*overflow: hidden;*/
+        /*font-size: 0.5rem;*/
+       
+    }
+    h4 {
+      font-size: 0.5rem;
+    }
+    h6 {
+      font-size: 0.3rem;
+    }
+    p {
+      font-size: 0.1rem;
+    }
+
+  }
+
+  @media screen and (max-width: 375px) {
+    .img1 {
+      width: 115px;
+      max-height: 320px;
+      /*overflow: hidden;*/
+      justify-content: space-between;
+    }
+    div.card {
+      width: 115px;
+      height: 300px;
+      margin-left: 5px;
+      /*overflow: hidden;*/
+      /*font-size: 0.5rem;*/
+     
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  h6 {
+    font-size: 0.3rem;
+  }
+  p {
+    font-size: 0.1rem;
+  }
+
+}
+
+
+
+
+  @media screen and (max-width: 320px) {
+    .img1 {
+      width: 100px;
+      max-height: 250px;
+      /*overflow: hidden;*/
+      justify-content: space-between;
+    }
+    .img2 {
+      width: 100px;
+      max-height: 80px;
+      /*overflow: hidden;*/
+      justify-content: space-between;
+    }
+    div.card {
+      width: 100px;
+      max-height: 300px;
+      margin-left: 5px;
+      /*overflow: hidden;*/
+      /*font-size: 0.5rem;*/
+  }
+  div.card.img2 {
+    width: 100px;
+    max-height: 80px;
+    margin-left: 5px;
+    /*overflow: hidden;*/
+    /*font-size: 0.5rem;*/
+}
+
+  h4 {
+    font-size: 0.5rem;
+  }
+  h6 {
+    font-size: 0.3rem;
+  }
+  p {
+    font-size: 0.1rem;
+  }
+}
+
+
+/* css agustin*/
+/* CSS NAVBAR */
+
+.logo-navbar {
+  width: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-align {
+    width: 450px;
+  }
+}
+
+/* CSS NAVBAR Buttons */
+
+.button {
+  padding: 0.1rem 0.25rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: black;
+  text-decoration: none;
+}
+
+.button-login {
+  padding: 0.1rem 0.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0d6efd;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border: none;
+}
+
+nav > div > div > div > a:hover {
+  color: rgb(140, 211, 235);
+  transform: scale(1.03);
+}
+
+nav > div > div > div > a:active {
+  color: rgb(140, 211, 235);
+  transform: scale(1.03);
+}
+
+/* CSS Modal Login */
+
+.button-close {
+  font-size: 10px;
+}
+.button-modal-logfb {
+  border: 1px solid black;
+  background-color: #4568b2;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0px 0px;
+  padding: 14px 16px;
+}
+
+.button-modal-loggl {
+  border: 1px solid grey;
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0px 0px;
+  padding: 14px 16px;
+}
+
+.modal-separator {
+  position: relative;
+  text-align: center;
+  height: 34px;
+}
+
+.modal-span {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #757575;
+  display: inline-block;
+  background-color: white;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-hr {
+  margin: -25px auto 10px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgb(224, 224, 224);
+  opacity: 100;
+}
+
+.link-fyp {
+  margin: 1rem 0;
+}
+
+div > div > div > div > form > div > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > form > div > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > form > div > a:active {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > form > div > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.button-modal-login {
+  border: 1px solid #eee;
+  border-radius: 0;
+  background-color: #1db9ec;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0px 0px;
+  padding: 14px 16px;
+}
+
+div > div > div > div > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > a:active {
+  text-decoration: none;
+  color: black;
+}
+
+div > div > div > div > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/*css mauro*/
+
+/*css cony*/
+
+/*css eduardo*/
+
