@@ -149,6 +149,26 @@
     background-color: black;
        
    }
+
+   .bg_black_tr {
+
+    background-color: rgba(0, 0, 0, 0.205);
+       
+   }
+
+   .bg_blue_tr {
+
+    background-color: rgba(9, 63, 133, 0.548);
+       
+   }
+   .bg_green_tr {
+
+    background-color: rgba(38, 102, 12, 0.5);
+       
+   }
+   
+   
+
 .navbar_color10 {
   color: #cc3c3c ;
 }
@@ -563,4 +583,15 @@ div > div > div > div > a:visited {
 /*css cony*/
 
 /*css eduardo*/
+
+/* header*/
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
