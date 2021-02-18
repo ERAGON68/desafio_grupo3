@@ -110,8 +110,9 @@
     /*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(252, 249, 249, 0.15) 100%), radial-gradient(at top center, rgba(241, 239, 239, 0.4) 0%, rgba(245, 241, 241, 0.4) 120%) #989898;*/
     /*background-blend-mode: multiply,multiply;*/
     /*background-image: url("./img/bg_disc.jpg");*/
-    /*background-image: url("./img1/bg_articulos.jfif");*/
-    background-color: rgb(218, 234, 248);
+    /*background-image: url("./img1/articulos.webp");*/
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgb(115, 205, 228) 0%, rgb(248, 250, 249) 100%);
     background-attachment: scroll; 
 
   }
@@ -187,7 +188,7 @@ a .navbar_color10:hover {
     background-size: cover;
     min-height: auto;
     /*background-color:black;*/
-    background-image: url(./img/bg_bestvideos.jpg);
+    background-image: url(./img1/videos.webp);
     background-blend-mode: multiply,multiply;
     background-attachment: scroll; 
 
@@ -534,6 +535,37 @@ nav > div > div > div > a:active {
 }
 
 /* CSS Modal Login */
+/* CSS NAVBAR Buttons */
+
+.button {
+  padding: 0.1rem 0.25rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: black;
+  text-decoration: none;
+}
+
+.button-login {
+  padding: 0.1rem 0.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0d6efd;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  border: none;
+}
+
+nav > div > div > div > a:hover {
+  color: rgb(140, 211, 235);
+  transform: scale(1.03);
+}
+
+nav > div > div > div > a:active {
+  color: rgb(140, 211, 235);
+  transform: scale(1.03);
+}
+
+/* CSS Modal Login */
 
 .button-close {
   font-size: 10px;
@@ -640,6 +672,121 @@ div > div > div > div > a:active {
 div > div > div > div > a:visited {
   text-decoration: none;
   color: black;
+}
+
+/* CSS Footer */
+
+footer {
+  background: url(...);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+footer > div > ul > li {
+  list-style: none;
+}
+
+.img-logos-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img-footer {
+  width: 60px;
+  filter: invert(100%);
+}
+
+.copyright-footer {
+  margin-left: 20%;
+  color: black;
+}
+
+.links-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  padding: 0;
+}
+
+.color-icon {
+  color: black;
+  font-size: 20px;
+}
+
+.icons-footer {
+  margin-top: 10px;
+}
+
+footer > div > ul > a:link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+footer > div > ul > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+footer > div > ul > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer > div > ul > a:active {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .copyright-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .links-footer {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .img-footer {
+    margin-left: 0;
+  }
+  .icons-footer {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0;
+  }
+  .img-logos-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .links-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  footer {
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .priv-mediaq {
+    margin-left: 20px;
+  }
 }
 
 /*css mauro*/
