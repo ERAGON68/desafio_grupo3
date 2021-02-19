@@ -266,11 +266,7 @@ section .navegacion li img:hover{
 
   /*section contact-footer*/
 
-  footer {
-    padding-top: 30px;
-    background-color: #292c2f;
-    color: #bbb;
-  }
+  
   
   footer a {
     color: #999;
@@ -677,10 +673,10 @@ div > div > div > div > a:visited {
 /* CSS Footer */
 
 footer {
-  background: url(...);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  margin-top: auto; /*cony*/
+  padding-top: 30px;
+  background-color: #0a5ad1;
+  color: #bbb;
 }
 
 footer > div > ul > li {
