@@ -491,11 +491,13 @@ img.img1 {
 nav > div > div > div > a:hover {
   color: rgb(140, 211, 235);
   transform: scale(1.03);
+  text-decoration: none;
 }
 
 nav > div > div > div > a:active {
   color: rgb(140, 211, 235);
   transform: scale(1.03);
+  text-decoration: none;
 }
 
 /* CSS Modal Login */
