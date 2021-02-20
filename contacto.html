@@ -118,6 +118,9 @@
 
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./articulos-style.css" />
+
+  
  
     
 
@@ -157,31 +160,30 @@
   <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img class="logo-navbar" src="..." alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse navbar-align" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="button" href="#Inicio">INICIO</a>
-          <a class="button" href="#idarticulos">ARTÃCULOS</a>
-          <a class="button" href="#idvideos">VIDEOS</a>
-          <a class="button" href="#idsobrenosotros">SOBRE NOSOTROS</a>
-          <a class="button" href="#idcontacto">CONTACTO</a>
-        </div>
-        <div>
-          <!-- Button trigger modal -->
+   <!-- Barra de navegación -->
+   <nav id="Inicio" class="navbar navbar-expand-sm navbar-light sticky-top">
+    <div class="container-fluid justify-content-start">
+        <a class="navbar-brand" href="./index.html"><img class="logo-navbar" src="./img/logo-navbar.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-align" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="button" href="./index.html">INICIO</a>
+                <a class="button" href="./articulos.html">ARTÍCULOS</a>
+                <a class="button" href="ABOUT.HTML">SOBRE NOSOTROS</a>
+                <a class="button" href="./contacto.html">CONTACTO</a>
+            </div>
+            <div>
+                <!-- Button trigger modal -->
 
-          <button type="button" class="btn btn-outline-primary btn-sm button-login" data-bs-toggle="modal"
-            data-bs-target="#modalLogin" href="#modalLogin">LOGIN</button>
+                <button type="button" class="btn btn-outline-primary btn-sm button-login" data-bs-toggle="modal"
+                    data-bs-target="#modalLogin" href="#">LOGIN</button>
+            </div>
         </div>
-      </div>
     </div>
-  </nav>
-
+</nav>
   <!-- Modal Login -->
   <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
