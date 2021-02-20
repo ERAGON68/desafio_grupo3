@@ -1,12 +1,12 @@
 .bodypf {
   /*background-image: url("./img/pulse.jpg");*/
   background-color: aliceblue;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  background-size: cover;
+  background-size: auto;
+  min-height: auto;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -185,12 +185,13 @@ a .navbar_color10:hover {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    background-size: cover;
+    background-size: 15%;
     min-height: auto;
-    /*background-color:black;*/
-    background-image: url(./img1/videos.webp);
-    background-blend-mode: multiply,multiply;
+    /*background-color: white ;*/
+    background-image: url(./img1/videos.png);
+    /*background-blend-mode: multiply,multiply;*/
     background-attachment: scroll; 
+    max-height: 800px;
 
     /*background-image: url("./img/bg_news.jpg");*/
   }
@@ -203,6 +204,10 @@ a .navbar_color10:hover {
 
 
   /* Best videos section*/
+  .iframet {
+    width: 850px ;
+    height: 415px;
+  }
   * {
 	margin:0;
 	padding: 0;
@@ -673,11 +678,11 @@ div > div > div > div > a:visited {
 /* CSS Footer */
 
 footer {
-  margin-top: auto; /*cony*/
-  padding-top: 30px;
-  background-color: #0a5ad1;
-  color: #bbb;
-}
+    margin-top: auto; /*cony*/
+    padding-top: 30px;
+    background-color: #0a5ad1;
+    color: #bbb;
+  }
 
 footer > div > ul > li {
   list-style: none;

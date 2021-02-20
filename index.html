@@ -118,6 +118,8 @@
 
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./articulos-style.css" />
+
  
     
 
@@ -157,30 +159,30 @@
   <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img class="logo-navbar" src="..." alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse navbar-align" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="button" href="./index.html">INICIO</a>
-          <a class="button" href="./articulos.html">ARTÃCULOS</a>
-          <a class="button" href="#idvideos">VIDEOS</a>
-          <a class="button" href="./ABOUT.HTML">SOBRE NOSOTROS</a>
-          <a class="button" href="#idcontacto">CONTACTO</a>
-        </div>
-        <div>
-          <!-- Button trigger modal -->
+  <!-- Barra de navegación -->
+  <nav id="Inicio" class="navbar navbar-expand-sm navbar-light sticky-top">
+    <div class="container-fluid justify-content-start">
+        <a class="navbar-brand" href="./index.html"><img class="logo-navbar" src="./img/logo-navbar.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-align" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="button" href="./index.html">INICIO</a>
+                <a class="button" href="./articulos.html">ARTÍCULOS</a>
+                <a class="button" href="ABOUT.HTML">SOBRE NOSOTROS</a>
+                <a class="button" href="#">CONTACTO</a>
+            </div>
+            <div>
+                <!-- Button trigger modal -->
 
-          <button type="button" class="btn btn-outline-primary btn-sm button-login" data-bs-toggle="modal"
-            data-bs-target="#modalLogin" href="#modalLogin">LOGIN</button>
+                <button type="button" class="btn btn-outline-primary btn-sm button-login" data-bs-toggle="modal"
+                    data-bs-target="#modalLogin" href="#">LOGIN</button>
+            </div>
         </div>
-      </div>
     </div>
-  </nav>
+</nav>
 
   <!-- Modal Login -->
   <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -324,7 +326,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4 img1">
                       <div class="card img1">
-                        <a class="img1" data-toggle="modal" href="#portfolioModal1">
+                        <a class="img1" href="./openarticle.html">
                           <img class="img-fluid img1" src="./img1/francia.jpg " alt="" />
                         </a>
                         <div class="card-body">
@@ -367,7 +369,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4 img1" id="div_bell">
                       <div class="card img1">
-                        <a class="img1" data-toggle="modal" href="#portfolioModal1">
+                        <a class="img1" href="./openarticle.html">
                           <img class="img-fluid img1" src="./img1/pasaporte.jpg" alt="" />
                         </a> 
                         <div class="card-body">
@@ -444,18 +446,18 @@
 
   <!--section VIDEOS-->
 
-  <section class="best_image pt-5 pb-5" id="idvideos">
+  <section class=" best_image pt-5 pb-8" id="idvideos">
     <div class="container">
       <div class="col-6">
-        <h3 class="mb-3" style="color:aliceblue">VIDEOS </h3>
+        <h3 class="mb-3" style="color:rgb(0, 0, 0)">VIDEOS </h3>
       </div>
-      <div class="row">
+      <div class="row flex justify-content-center">
         <!--<div class="ratio ratio-16x9"></div>-->
-        <iframe style="background-color:rgba(0, 0, 5, 0);" width="840" height="460" src="vacio.html" name="iframe_a"
+        <iframe class="iframet" width="420px" height="415px" src="./vacio.html" name="iframe_a"
           style="border:none" title="Muestra los links"></iframe>
         <!--<p><a href="https://www.youtube.com/embed/tgbNymZ7vqY" target="iframe_a">Rapsodia Bohemia by Muppets</a></p>-->
         <!--</div>-->
-        <div class="col-6 text-right">
+        <div class="col-6 text-right d-flex justify-content-around pt-4">
           <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators3" role="button" data-slide="prev">
             <i class="fa fa-arrow-left"></i>
           </a>
@@ -468,10 +470,10 @@
 
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row no_wrap">
+                <div class="row no_wrap flex justify-content-center">
 
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">3 July 2020 </h6>
                         <!--<h4 class="card-title">'YES, I HAVE GHOSTS' – DAVID GILMOUR'S FIRST NEW MUSIC IN FIVE YEARS</h4>-->
@@ -483,7 +485,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">8 Jan 2017 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado">COMING
@@ -493,7 +495,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">20 July 2020 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado">SORROW
@@ -506,10 +508,10 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row no_wrap">
+                <div class="row no_wrap flex justify-content-center">
 
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">30 July 2020 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -520,7 +522,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">11 April 2019 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -529,7 +531,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">11 April 2019 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -543,10 +545,10 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row no_wrap">
+                <div class="row no_wrap flex justify-content-center">
 
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">17 April 2019 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -557,7 +559,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">11 SEPTEMBER 2018 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -567,7 +569,7 @@
                     </div>
                   </div>
                   <div class="col-md-4 mb-3 img2">
-                    <div class="card bg_white_tr img2">
+                    <div class="card bg_blue_tr img2">
                       <div class="card-body img2">
                         <h6 class="card-text text-white">11 March 2019 </h6>
                         <p><a href="./img1/patagonia.mp4" target="iframe_a" class="visitado"> WISH
@@ -612,7 +614,7 @@
               </ul>
             </div>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center pb-2">
             <a
               href="https://www.facebook.com/"
               class="card-link fab fa-facebook fa-2x giro"

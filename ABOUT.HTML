@@ -101,81 +101,36 @@
       type="text/css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./articulos-style.css" />
+
 
     <title>Turismo - Sobre NOSOTROS</title>
   </head>
   <body class="bodypf" id="Inicio">
-    <!-- Barra de navegacion-->
-    <!--
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar_color"  style="color: #cc3a15;"id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="nav_icon zoom" src="./img/pink-floyd2.png"
-          alt="" /></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars ml-1"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item navbar_color1"><a class="nav-link js-scroll-trigger navbar_color1" href="#page-top">HOME</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger navbar_color1" href="#news">NEWS</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger navbar_color1" href="#best_videos">BEST VIDEOS...</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger navbar_color1" href="#discography">DISCOGRAPHY</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger navbar_color1" href="#contact">CONCTACT US</a></li>
-        </ul>
+    <!-- Barra de navegación -->
+    <nav id="Inicio" class="navbar navbar-expand-sm navbar-light sticky-top">
+      <div class="container-fluid justify-content-start">
+          <a class="navbar-brand" href="./index.html"><img class="logo-navbar" src="./img/logo-navbar.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-align" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="button" href="./index.html">INICIO</a>
+                  <a class="button" href="./articulos.html">ARTÍCULOS</a>
+                  <a class="button" href="ABOUT.HTML">SOBRE NOSOTROS</a>
+                  <a class="button" href="#">CONTACTO</a>
+              </div>
+              <div>
+                  <!-- Button trigger modal -->
 
-      </div>
-
-    </div>
-  </nav> -->
-
-    <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
-
-    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img class="logo-navbar" src="..." alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse navbar-align"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="button" href="index.html">INICIO</a>
-            <a class="button" href="articulos.html">ARTICULOS</a>
-            <a class="button" href="#idvideos">VIDEOS</a>
-            <a class="button" href="ABOUT.HTML">SOBRE NOSOTROS</a>
-            <a class="button" href="#idcontacto">CONTACTO</a>
+                  <button type="button" class="btn btn-outline-primary btn-sm button-login" data-bs-toggle="modal"
+                      data-bs-target="#modalLogin" href="#">LOGIN</button>
+              </div>
           </div>
-          <div>
-            <!-- Button trigger modal -->
-
-            <button
-              type="button"
-              class="btn btn-outline-primary btn-sm button-login"
-              data-bs-toggle="modal"
-              data-bs-target="#modalLogin"
-              href="#"
-            >
-              LOGIN
-            </button>
-          </div>
-        </div>
       </div>
-    </nav>
+  </nav>
 
     <!-- Modal Login -->
     <div
@@ -358,11 +313,109 @@
 
 
     </section>
-    <!--Footer-->
-    <section>
-      <hr />
-      <h1>Footer</h1>
-    </section>
+    <footer class="footer" id="idcontacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="d-flex justify-content-center">
+              <h5><i class="fa fa-code"></i> DESIGN BY MiMYSME</h5>
+            </div>
+            <div class="row d-flex justify-content-center mt-4 mb-4">
+              <div class="col-3 d-flex justify-content-center">
+                <ul class="list-unstyled">
+                  <li><a href="">Product</a></li>
+                  <li><a href="">Benefits</a></li>
+                  <li><a href="">Partners</a></li>
+                  <li><a href="">Team</a></li>
+                </ul>
+              </div>
+              <div class="col-3 d-flex justify-content-center">
+                <ul class="list-unstyled">
+                  <li><a href="">Documentation</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Legal Terms</a></li>
+                  <li><a href="">About</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://www.facebook.com/"
+                class="card-link fab fa-facebook fa-2x giro"
+                target="_blank"
+              ></a>
+              <a
+                href="https://twitter.com/?lang=es"
+                class="card-link fab fa-twitter-square fa-2x giro"
+                target="_blank"
+              ></a>
+              <a
+                href="https://www.youtube.com/"
+                class="card-link fab fa-youtube-square fa-2x giro"
+                target="_blank"
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                class="card-link fab fa-instagram fa-2x giro"
+                target="_blank"
+              ></a>
+            </div>
+            <br />
+          </div>
+  
+          <div class="container">
+            <div class="row mt-auto">
+              <div class="col-md-6">
+                <p>Copyright Â© 2021 - Todos los derechos Rervados</p>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <p>Contactanos...</p>
+                <a
+                  href="https://mail.google.com/mail/u/0/?tab=rm&amp;ogbl#inbox"
+                  target="_blank"
+                  ><img src="./img/email.png" height="30px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="row mt-auto">
+              <div class="col-md text-center">
+                <p>Desarrollado By - @DesignBlog</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-2">
+            <h5 class="text-md-right">Contact Us</h5>
+            <hr />
+          </div>
+          <div class="col-md-5">
+            <form>
+              <fieldset class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Enter email"
+                />
+              </fieldset>
+              <fieldset class="form-group">
+                <textarea
+                  class="form-control"
+                  id="exampleMessage"
+                  placeholder="Message"
+                ></textarea>
+              </fieldset>
+              <fieldset class="form-group text-xs-right">
+                <button type="button" class="btn btn-secondary-outline btn-lg">
+                  Send
+                </button>
+              </fieldset>
+            </form>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+    
+  </section>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
