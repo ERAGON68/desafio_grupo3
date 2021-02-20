@@ -457,6 +457,15 @@ img.img1 {
 
 /*css mauro*/
 
+.centrado {
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*css cony*/
 
 /*css eduardo*/
