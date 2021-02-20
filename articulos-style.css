@@ -4,13 +4,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* CSS NAVBAR */
 
 .navbar {
   background-color: white;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .logo-navbar {
@@ -24,7 +26,7 @@ body {
 }
 
 .navbar-nav {
-  width: 500px;
+  width: 400px;
 }
 
 @media only screen and (max-width: 425px) {
