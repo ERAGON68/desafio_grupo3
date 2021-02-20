@@ -311,14 +311,14 @@ section .navegacion li img:hover{
   @media screen and (max-width: 2500px) {
     .img1 {
       width: 400px;
-      max-height: 510px;
+      max-height: 550px;
       /*overflow: hidden;*/
       justify-content: space-between;
     
     }
     .img2 {
       width: 400px;
-      max-height: 100px;
+      max-height: 130px;
       /*overflow: hidden;*/
       justify-content: space-between;
     
@@ -333,17 +333,43 @@ section .navegacion li img:hover{
   
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .img1 {
-      width: 225px;
-      max-height: 280px;
+      width: 312px;
+      max-height: 450px;
       /*overflow: hidden;*/
       justify-content: space-between;
     
     }
     .img2 {
+      width: 300px;
+      max-height: 120px;
+      /*overflow: hidden;*/
+      /*justify-content: space-between;*/
+    
+    }
+
+    div.card {
+      width: 312px;
+      height: 900px;
+      /*overflow: hidden;*/
+      
+    }
+  
+  }
+
+
+  @media screen and (max-width:768px) {
+    .img1 {
       width: 225px;
-      max-height: 100px;
+      max-height: 400px;
+      /*overflow: hidden;*/
+      justify-content: space-between;
+    
+    }
+    .img2 {
+      width: 220px;
+      max-height: 120px;
       /*overflow: hidden;*/
       justify-content: space-between;
     
@@ -356,7 +382,7 @@ section .navegacion li img:hover{
       
     }
     
-    }
+    
 
     h4.img1 {
       font-size: 0.8rem;
@@ -373,10 +399,10 @@ section .navegacion li img:hover{
   
     
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width:425px) {
       .img1 {
         width: 130px;
-        max-height: 130px;
+        max-height: 200px;
         /*overflow: hidden;*/
         justify-content: space-between;
     
@@ -411,14 +437,14 @@ section .navegacion li img:hover{
   @media screen and (max-width: 375px) {
     .img1 {
       width: 115px;
-      max-height: 320px;
+      max-height: 190px;
       /*overflow: hidden;*/
       justify-content: space-between;
     }
 
     .img2 {
       width: 115px;
-      max-height: 30px;
+      max-height: 100px;
       /*overflow: hidden;*/
       justify-content: space-between;
     }
@@ -462,7 +488,7 @@ section .navegacion li img:hover{
     }
     .img2 {
       width: 100px;
-      max-height: 25px;
+      max-height: 100px;
       /*overflow: hidden;*/
       justify-content: space-between;
     }
