@@ -4,15 +4,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: "Roboto Condensed";
+  font-family: "Merriweather", serif;
 }
 
 /* CSS NAVBAR */
 
 .navbar {
   background-color: white;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .logo-navbar {
@@ -208,11 +206,11 @@ div > div > div > div > a:visited {
 /* CSS Articles */
 
 .article-card {
-  font-family: "Roboto Condensed";
+  font-family: "Open Sans", sans-serif;
 }
 
 .font-titles {
-  font-family: "Roboto Condensed";
+  font-family: "Merriweather", serif;
 }
 
 .contenedor-cards-principal {
@@ -401,6 +399,13 @@ td {
 }
 /* CSS Footer */
 
+footer {
+  background: url(...);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 footer > div > ul > li {
   list-style: none;
 }
@@ -420,7 +425,7 @@ footer > div > ul > li {
 
 .copyright-footer {
   margin-left: 20%;
-  /*color: black;*/
+  color: black;
 }
 
 .links-footer {
@@ -442,20 +447,22 @@ footer > div > ul > li {
 footer > div > ul > a:link {
   text-decoration: none;
   list-style: none;
-  /*color: black;*/
+  color: black;
 }
 
 footer > div > ul > a:visited {
   text-decoration: none;
-  /*color: black;*/
+  color: black;
 }
 
 footer > div > ul > a:hover {
   text-decoration: none;
+  color: black;
 }
 
 footer > div > ul > a:active {
   text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 768px) {
@@ -503,49 +510,4 @@ footer > div > ul > a:active {
   .priv-mediaq {
     margin-left: 20px;
   }
-}
-
-/*AGREGADO DE AQUI EN ADELANTE PARA QUE QUEDE IGUAL EL FOOTER*/
-footer {
-  margin-top: auto; /*cony*/
-  padding-top: 30px;
-  background-color: #0a5ad1;
-  color: #bbb !important;
-}
-
-footer a {
-  color: #999;
-  text-decoration: none;
-}
-
-.social-links1 {
-  display: flex;
-  flex-direction: row;
-  margin-top: auto;
-  justify-content: right;
-  background-color: rgba(5, 1, 7, 0);
-  font-family: sans-serif;
-  color: aliceblue;
-  width: 100%;
-}
-
-.giro {
-  transition-duration: 0.7s;
-}
-
-.zoom {
-  background-color: rgba(0, 128, 0, 0);
-  transition: transform 0.2s; /* Animation */
-  margin: 0 auto;
-}
-
-.giro:hover {
-  transform: rotate3d(0.8, 1, 0, 360deg);
-  transition-timing-function: ease-in-out;
-}
-
-.zoom:hover {
-  transform: scale(
-    2
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
