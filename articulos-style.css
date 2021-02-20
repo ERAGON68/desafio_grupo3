@@ -4,13 +4,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed";
 }
 
 /* CSS NAVBAR */
 
 .navbar {
   background-color: white;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .logo-navbar {
@@ -206,11 +208,11 @@ div > div > div > div > a:visited {
 /* CSS Articles */
 
 .article-card {
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed";
 }
 
 .font-titles {
-  font-family: 'Roboto Condensed';
+  font-family: "Roboto Condensed";
 }
 
 .contenedor-cards-principal {
@@ -399,8 +401,6 @@ td {
 }
 /* CSS Footer */
 
-
-
 footer > div > ul > li {
   list-style: none;
 }
@@ -452,12 +452,10 @@ footer > div > ul > a:visited {
 
 footer > div > ul > a:hover {
   text-decoration: none;
-  
 }
 
 footer > div > ul > a:active {
   text-decoration: none;
-  
 }
 
 @media only screen and (max-width: 768px) {
@@ -514,12 +512,11 @@ footer {
   background-color: #0a5ad1;
   color: #bbb !important;
 }
- 
+
 footer a {
   color: #999;
-  text-decoration:none;
+  text-decoration: none;
 }
-
 
 .social-links1 {
   display: flex;
@@ -527,29 +524,28 @@ footer a {
   margin-top: auto;
   justify-content: right;
   background-color: rgba(5, 1, 7, 0);
-  font-family: sans-serif ;
+  font-family: sans-serif;
   color: aliceblue;
   width: 100%;
-
 }
 
-.giro  {
-transition-duration: 0.7s;
-
+.giro {
+  transition-duration: 0.7s;
 }
 
 .zoom {
-background-color: rgba(0, 128, 0, 0);
-transition: transform .2s; /* Animation */
-margin: 0 auto;
+  background-color: rgba(0, 128, 0, 0);
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
 }
 
 .giro:hover {
-transform: rotate3d(0.8, 1, 0, 360deg);
-transition-timing-function: ease-in-out;
-
+  transform: rotate3d(0.8, 1, 0, 360deg);
+  transition-timing-function: ease-in-out;
 }
 
 .zoom:hover {
-transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
