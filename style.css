@@ -241,7 +241,7 @@ section .navegacion li img:hover {
 
 /*section contact-footer*/
 
-footer {
+.footer {
   margin-top: auto; /*cony*/
   padding-top: 30px;
   background-color: #0a5ad1;
