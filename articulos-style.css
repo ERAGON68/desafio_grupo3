@@ -64,7 +64,7 @@ body {
 }
 
 .button-login:hover {
-  background-color: rgb(140, 211, 235);
+  background-color: rgb(140, 211, 235) !important;
 }
 
 .button-login:active {
@@ -79,11 +79,13 @@ body {
 nav > div > div > div > a:hover {
   color: rgb(140, 211, 235);
   transform: scale(1.03);
+  text-decoration: none;
 }
 
 nav > div > div > div > a:active {
   color: rgb(140, 211, 235);
   transform: scale(1.03);
+  text-decoration: none;
 }
 
 /* CSS Modal Login */
@@ -383,7 +385,12 @@ div > div > div > div > a:visited {
   }
   .ultimas-entradas {
     margin-left: 6%;
+    margin-top: -50px;
     position: relative;
+    height: 150px;
+  }
+  div ul h5 {
+    font-size: 16px;
   }
 }
 
@@ -394,11 +401,61 @@ td {
   text-align: center;
 }
 
+.titulo-tabla {
+  font-size: 1.3rem;
+  border-bottom: lightblue solid 1px !important;
+  border-bottom-width: 3px !important;
+}
+
 .posicion-tabla {
   display: flex;
   justify-content: start;
   margin-left: 9.5%;
+  margin-bottom: 20px;
 }
+
+.table-width {
+  width: 50%;
+}
+
+.border-td-top {
+  border-bottom: lightblue solid 1px;
+  border-bottom-width: 3px !important;
+}
+
+.border-td-bottom {
+  border-bottom: lightblue solid 1px;
+  border-bottom-width: 3px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .posicion-tabla {
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+  }
+  .table-width {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .posicion-tabla {
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .width-iframe {
+    width: 100%;
+  }
+
+  .table-width {
+    width: 80%;
+  }
+}
+
 /* CSS Footer */
 
 footer {
