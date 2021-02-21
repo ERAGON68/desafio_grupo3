@@ -333,7 +333,7 @@ img.img1 {
   }
   .img2 {
     width: 220px;
-    max-height: 120px;
+    max-height: 100px;
     /*overflow: hidden;*/
     justify-content: space-between;
   }
@@ -365,7 +365,7 @@ img.img1 {
 
   .img2 {
     width: 130px;
-    max-height: 50px;
+    max-height: 70px;
     /*overflow: hidden;*/
     justify-content: space-between;
   }
@@ -379,10 +379,10 @@ img.img1 {
     font-size: 0.5rem;
   }
   h6 {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
   }
   p {
-    font-size: 0.1rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -396,7 +396,7 @@ img.img1 {
 
   .img2 {
     width: 115px;
-    max-height: 150px;
+    max-height: 190px;
     /*overflow: hidden;*/
     justify-content: space-between;
   }
@@ -411,14 +411,14 @@ img.img1 {
     font-size: 0.5rem;
   }
   h6 {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
   }
   p {
-    font-size: 0.1rem;
+    font-size: 0.5rem;
   }
   div.card.img2 {
     width: 115px;
-    height: 30px;
+    height: 60px;
     /*overflow: hidden;*/
     /*font-size: 0.5rem;*/
   }
@@ -433,32 +433,32 @@ img.img1 {
   }
   .img2 {
     width: 100px;
-    max-height: 100px;
+    max-height: 120px;
     /*overflow: hidden;*/
     justify-content: space-between;
   }
-  div.card {
+  div.card.img1 {
     width: 100px;
-    max-height: 160px;
+    max-height: 180px;
     /*overflow: hidden;*/
     /*font-size: 0.5rem;*/
     margin-left: 0;
   }
   div.card.img2 {
     width: 100px;
-    max-height: 80px;
+    max-height: 160px;
     /*overflow: hidden;*/
     /*font-size: 0.5rem;*/
   }
 
   h4 {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   h6 {
-    font-size: 0.2rem;
+    font-size: 0.5rem;
   }
   p {
-    font-size: 0.1rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -479,7 +479,7 @@ img.img1 {
 
 /* header*/
 .carousel-item {
-  height: 65vh;
+  /*height: 65vh;*/
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
