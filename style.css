@@ -492,3 +492,11 @@ img.img1 {
   -o-background-size: cover;
   background-size: cover;
 }
+.button-ver {
+  padding: 0.1rem 0.25rem;
+  margin: 0.1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
+  text-decoration: none;
+}
