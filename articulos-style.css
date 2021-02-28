@@ -224,10 +224,10 @@ div > div > div > div > a:visited {
 }
 
 .divisor-cards {
-  border: solid 2px lightblue;
+  border: solid 2px #0e69f196;
   opacity: 1;
   width: 25%;
-  background-color: lightblue;
+  background-color: #0e69f196;
 }
 
 .link-cards:link {
@@ -355,7 +355,7 @@ div > div > div > div > a:visited {
 }
 
 .ultimas-entradas-list {
-  border-left: 5px solid lightblue;
+  border-left: 5px solid #0e69f196;
   padding-left: 0.5rem;
   font-weight: bold;
 }
@@ -376,7 +376,7 @@ div > div > div > div > a:visited {
 
 .ultimas-entradas-link:hover {
   text-decoration: none;
-  color: lightblue;
+  color: #0e69f196;
 }
 
 @media only screen and (max-width: 768px) {
@@ -403,7 +403,7 @@ td {
 
 .titulo-tabla {
   font-size: 1.3rem;
-  border-bottom: lightblue solid 1px !important;
+  border-bottom: #0e69f196 solid 1px !important;
   border-bottom-width: 3px !important;
 }
 
@@ -419,12 +419,12 @@ td {
 }
 
 .border-td-top {
-  border-bottom: lightblue solid 1px;
+  border-bottom: #0e69f196 solid 1px;
   border-bottom-width: 3px !important;
 }
 
 .border-td-bottom {
-  border-bottom: lightblue solid 1px;
+  border-bottom: #0e69f196 solid 1px;
   border-bottom-width: 3px !important;
 }
 
