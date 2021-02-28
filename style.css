@@ -465,7 +465,6 @@ img.img1 {
 /*css mauro*/
 
 .centrado {
-  font-size: x-large;
   color: white;
   position: absolute;
   top: 50%;
@@ -473,11 +472,12 @@ img.img1 {
   transform: translate(-50%, -50%);
 }
 
-.img-openarticle {
-  width: 100%;
-  height: 466.56px;
-  object-fit: cover;
+@media screen and (max-width: 425px) {
+  .centrado > h1 {
+    font-size: x-large;
+  }
 }
+
 /*css cony*/
 
 /*css eduardo*/
